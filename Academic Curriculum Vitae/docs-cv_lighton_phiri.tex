@@ -1,0 +1,366 @@
+\documentclass[12pt,]{scrartcl}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\defaultfontfeatures{Scale=MatchLowercase,Ligatures={TeX}}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Serif}
+\setmonofont[SmallCapsFont={Liberation Serif}]{Liberation Serif}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{xcolor}
+\definecolor{cvlinkcolor}{RGB}{6,125,233}
+\hypersetup{colorlinks,linkcolor=cvlinkcolor,citecolor=cvlinkcolor,urlcolor=cvlinkcolor,bookmarksnumbered,bookmarks=false,pdfinfo={Title={Curriculum Vitae},Author={Lighton Phiri},Creator={Lighton Phiri},Subject={Curriculum Vitae},Keywords={Curriculum Vitae},CreationDate={D:20150513232724}}}
+\renewcommand\labelenumi{[\theenumi]}
+
+\date{}
+
+\begin{document}
+
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.2}\tabcolsep=0pt
+\begin{tabular}{p{0.60\linewidth}p{0.05\linewidth}p{0.35\linewidth}}
+
+  \multirow{1}{*}{\LARGE \textbf{Jun Young Koh}} &  &  \\
+  
+  & & \\
+  
+  Media of Global & \multicolumn{1}{r}{Phone:\;\;} & \multicolumn{1}{l}{$+$82 10 9921 6066} \\
+  
+  IT College& \multicolumn{1}{r}{Email:\;\;} &\multicolumn{1}{l}{\href{lphiri@cs.uct.ac.za}{arsol970812@gmail.com}} \\
+  
+  Soongsil University& \multicolumn{1}{r}{Home:\;\;} & \multicolumn{1}{l}{\url{https://blog.naver.com/solbon1212}} \\
+  
+  Seoul, Republic of Korea & \multicolumn{1}{r}{Github:\;\;} & \multicolumn{1}{l}{\url{https://github.com/Junst}} \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Education}\label{education}
+
+% \textbf{\textsuperscript{†}} \emph{Indicates expected}
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+
+%   \multirow{2}{*}[0.85em]{2014--2018 \textsuperscript{\textbf{\textdagger}}} & Ph.D., Computer Science, University of Cape Town \\
+  
+%   & Thesis Title: Streamlined Technology-driven Orchestration \\
+%   & Supervisors: Hussein Suleman and Christoph Meinel \\
+  
+%   2011--2013 & M.Sc., Computer Science, University of Cape Town \\
+
+  2017--2022 & B.S., Media of Global, Soongsil University, Seoul, Republic of Korea \\
+  
+  2013--2016 & Seoul High School, Seoul, Republic of Korea \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Publications}\label{publications}
+% \emph{Preprint URLs available at
+% \url{http://orcid.org/0000-0003-3582-9866}}\\
+\subsubsection{Journals}\label{journals}
+
+\begin{enumerate}
+  %%%%%\leftskip-0.25in % for bullets
+  \leftskip-0.13in % for numbers
+  \item \textbf{Jun-Young, Koh.}, Da-In Park, Jung-Hun Ha, Kang-Hee,Lee. (2022). An AI Media Art Therapy Using Deep Learning. IEEE Access. [Waiting for Accept]
+  %%%
+  \item \textbf{Jun-Young, Koh.}, Da-In Park, Kang-Hee,Lee. (2022). Proposal of Color Therapy Using Fuzzy System. IEEE Access. [Waiting for Accept]
+    %%%
+  \item \textbf{Jun-Young, Koh.}, Sang-Min Kim, Kang-Hee,Lee. (2022). Implementation of Sandbox Counseling System through Deep Learning and Spatial Symbol System. [Writing]
+\end{enumerate}
+
+\subsubsection{Proceedings}\label{proceedings} %% Conferences
+
+\begin{enumerate}
+  %%%%%\leftskip-0.25in % for bullets
+  \leftskip-0.13in % for numbers
+  \item \textbf{Jun-Young, Koh.}, Kang-Hee Lee. (2022). Proposal of 3D Camera-Based Digital Coordinate
+  Recognition Technology. The  Korea Society of Computer and Information Summer Conference 2022. %DOI: \href{http://dx.doi.org/10.5220/0006339104340441}{10.5220/0006339104340441}
+
+%   \item \textbf{Phiri, L}., Meinel, C., \& Suleman, H. (2016). Ad hoc vs. organised orchestration: A comparative analysis of technology-driven orchestration approaches. In V.Kumar, S. Murphy, \& Kinshuk (Eds.), 8$^{th}$ International Conference on Technology for Education (pp. 200--203). Los Alamitos, California: IEEE. DOI: \href{https://doi.org/10.1109/T4E.2016.049}{10.1109/T4E.2016.049}
+
+\end{enumerate}
+
+\newpage
+
+\subsection{Projects}\label{projects}
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.30\linewidth}p{0.70\linewidth}}
+
+  Sep 2021--May 2022 & Media of Global Graduation Exhibition Product : "Space for U : AI Art Therapy" 
+  & & Color Therapy Using Fuzzy System. & & Distance Recognition using CNN : SSD Model. 
+  & & Music Mood Recognition using SVM. \\
+  
+  Sep 2021--Dec 2021 & Embedded System Class Project : "KoNLPy-tTV : NLP using Jetson Nano" & & Using KoNLPy to input what I say and Crawling images to make video. \\
+  
+  Mar 2021--Jun 2021 & AI Class Team Project : "TSP-Genetic Problem solved using Genetic Algorithm" \\
+  
+  Mar 2021--Jun 2021 & AI Class Team Project : "Visualization of Classfication process by Intermediate Feature Space, Class Activation Map" \\
+  
+  Mar 2021--Jun 2021 & AI Class Project : "Gaussian Mixture Model Using Probabilistic Density Function(PDF) estimation, Expectation Maximization (EM)" \\
+
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Teaching}\label{teaching}
+
+\begin{table}[!h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.20\linewidth}p{0.40\linewidth}p{0.40\linewidth}}
+
+  Fall 2022 & C++ SW Tutor & Soongsil University \\
+  
+  Summer 2018 & Linux Programming ICT Volunteers & NIA, Asunción, Paraguay \\
+
+  %%%2013 & DDOOCP, Developing OO Programs & Zambia Centre for Accountancy Studies \\
+  
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Teaching Assistant}\label{teaching-assistant}
+
+\begin{table}[!h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.20\linewidth}p{0.40\linewidth}p{0.40\linewidth}}
+
+  Fall 2022 & Cospaces Edu for Kids & Soongsil University \\
+  
+  Summer 2022 & Machine Learing for Kids & Soongsil University \\
+
+  Summer 2022 & SSU Media, Machine Learning Course & Soongsil University \\
+
+  Spring 2022 & Woori Digital Academy : AI & Soongsil University \\
+  
+\end{tabular}%
+}
+\end{table}
+
+% \subsection{Supervision}\label{supervision}
+
+% \begin{table}[!h]
+% %%%\centering
+% {\def\arraystretch{1.5}\tabcolsep=0pt
+% \begin{tabular}{p{0.10\linewidth}p{0.45\linewidth}p{0.45\linewidth}}
+
+%   2016 & Nabeel Parker, Honours Student & University of Cape Town \\
+  
+%   2016 & Morne Valentyn, Honours Student & University of Cape Town \\
+
+% \end{tabular}%
+% }
+% \end{table}
+
+\subsection{Selected Honours and
+Awards}\label{selected-honours-and-awards}
+
+\begin{table}[!h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.10\linewidth}p{0.85\linewidth}}
+
+  2018 & Achievement Award, Secretaría Nacional de Tecnologías de la Información у Comunicación \\
+%   2003 & University of Zambia Undergraduate Bursary \\
+
+\end{tabular}%
+}
+\end{table}
+
+
+
+% \subsection{Appointments}\label{appointments}
+
+% \begin{table}[h]
+% %%%\centering
+% {\def\arraystretch{1.5}\tabcolsep=0pt
+% \begin{tabular}{p{0.15\linewidth}p{0.85\linewidth}}
+
+%   2015--2017 & Teaching Assistant, Computer Science, University of Cape Town \\
+  
+%   2015--2015 & Temp Lecturer, Computer Science, University of Cape Town \\
+  
+%   2013--2014 & Research Assistant, Digital Libraries Laboratory, University of Cape Town \\
+  
+%   2013--2013 & Part-time Lecturer, ICT, Zambia Centre for Accountancy Studies \\
+
+%   2011--2013 & Content Curator, SCAP Project, University of Cape Town \\
+  
+%   2009--2011 & Database Administrator, IT Department, Airtel Zambia \\
+  
+%   2008--2009 & Business Intelligence Analyst, IT Department, Zain Zambia \\
+  
+%   2007--2008 & Business Intelligence Analyst, IT Department, Celtel Zambia \\
+
+% \end{tabular}%
+% }
+% \end{table}
+
+
+% \subsubsection{Book chapters}\label{book-chapters}
+
+% \begin{enumerate}
+%   %%%%%\leftskip-0.25in % for bullets
+%   \leftskip-0.13in % for numbers
+%   \item \textbf{Phiri, L}., \& Suleman, H. (2015). Managing cultural heritage: information systems architecture. In I. Ruthven \& G. Chowdhury (Eds.), Cultural Heritage Information: Access and Management (pp. 113--134). United Kingdom, London: Facet Publishing.
+% \end{enumerate}
+
+% \subsubsection{Theses and dissertations}\label{theses-and-dissertations}
+
+% \begin{enumerate}
+%   %%%%%\leftskip-0.25in % for bullets
+%   \leftskip-0.13in % for numbers
+%   \item \textbf{Phiri, L}. (2013). Simple digital libraries. M.Sc. Dissertation. University of Cape Town. Retrieved from \href{http://hdl.handle.net/11427/6638}{http://hdl.handle.net/11427/6638}
+% \end{enumerate}
+
+% \subsubsection{Technical reports}\label{technical-reports}
+
+% \begin{enumerate}
+%   %%%%%\leftskip-0.25in % for bullets
+%   \leftskip-0.13in % for numbers
+%   \item Baird, M. J., \textbf{Phiri, L}., \& Suleman, H. (2014). Automatic workflow management for spatial heritage data. Retrieved from \href{http://pubs.cs.uct.ac.za/archive/00000962}{http://pubs.cs.uct.ac.za/archive/00000962}
+
+%   \item \textbf{Phiri, L}., \& Suleman, H. (2013). Benchmarking a file-based digital library system repository architecture. Cape Town. Retrieved from \href{http://pubs.cs.uct.ac.za/archive/00000888}{http://pubs.cs.uct.ac.za/archive/00000888}
+% \end{enumerate}
+
+% \subsubsection{Posters}\label{posters}
+
+% \begin{enumerate}
+%   %%%%%\leftskip-0.25in % for bullets
+%   \leftskip-0.13in % for numbers
+%   \item \textbf{Phiri, L}., Meinel, C., \& Suleman, H. (2016). Streamlining technology-driven orchestration in formal learning spaces. Poster session presented at the 2016 Computer Science Evening, University of Cape Town, Cape Town, South Africa.
+
+%   \item \textbf{Phiri, L}., Meinel, C., \& Suleman, H. (2016). Streamlined technology-driven orchestration. Poster session presented at the Teaching \& Learning Conference 2015 Deferred, University of Cape Town, Cape Town, South Africa.
+
+%   \item \textbf{Phiri, L}., Meinel, C., \& Suleman, H. (2015). Streamlined technology-driven orchestration. Poster session presented at the 10$^{th}$ Symposium on Future Trends in Service-Oriented Computing, Potsdam, Germany.
+
+%   \item \textbf{Phiri, L}., \& Suleman, H. (2011) A lightweight digital library framework. Poster session presented at the 2011 Southern African Institute for Computer Scientist and Information Technologists Annual Conference, Cape Town, South Africa.
+
+% \end{enumerate}
+
+% \subsection{Contributed Presentations}\label{contributed-presentations}
+
+% \begin{enumerate}
+%   %%%%%\leftskip-0.25in % for bullets
+%   \leftskip-0.13in % for numbers
+%   \item \textbf{Phiri, L}., Meinel C., \& Suleman, H. (2017). Peer tutoring orchestration: Streamlined Technology-driven Orchestration for Peer Tutoring (oral presentation), 9$^{th}$ International Conference on Computer Supported Education, Porto, Portugal, April 2017.
+  
+%   \leftskip-0.13in % for numbers
+%   \item \textbf{Phiri, L}., Meinel C., \& Suleman, H. (2016). Ad hoc vs. organised orchestration: A comparative analysis of technology-driven orchestration approaches (oral presentation), 8$^{th}$ International Conference on Technology for Education, Mumbai, India, December 2016.
+
+%   \item \textbf{Phiri, L}., \& Suleman, H., \& Meinel C. (2016). Understanding the effects of streamlining the orchestration of learning activities (oral presentation), HPI-CS4A Retreat Workshop, Cape Town, South Africa, August 2016.
+
+%   \item \textbf{Phiri, L}. (2016). Postgraduate studies: Graduate school experience (oral presentation), Computer Science 1011 Invited Talk, Cape Town, South Africa, May 2016.
+  
+%   \item \textbf{Phiri, L}., \& Suleman, H., \& Meinel C. (2016). Streamlined technology-driven orchestration (oral presentation), HPI Spring Workshop, Cape Town, South Africa, April 2016.
+
+%   \item \textbf{Phiri, L}., \& Suleman, H. (2015). Simple archive architectures (oral presentation), IFLA IT Section Satellite Meeting, Stellenbosch, South Africa, August 2015.
+  
+%   \item \textbf{Phiri, L}., \& Suleman, H., \& Meinel C. (2015). Streamlined orchestration: Investigating the impact of organised orchestration on teaching (oral presentation), HPI-CS4A Retreat Workshop, Cape Town, South Africa, August 2015.
+  
+%   \item \textbf{Phiri, L}., Suleman, H., \& Meinel C. (2015). Investigating the impact of organised orchestration on teaching (oral presentation), Doctoral Symposium, 10$^{th}$ Symposium on Future Trends in Service-Oriented Computing, Potsdam, Germany, June 2015.
+
+%   \item Poulo, L., \textbf{Phiri, L}., \& Suleman, H. (2014). Fine-grained scalability of digital library services in the cloud (oral presentation), 2014 Southern African Institute for Computer Scientist and Information Technologists Annual Conference, Centurion, South Africa, September 2014.
+
+%   \item \textbf{Phiri, L}., \& Suleman, H., \& Meinel C. (2016). K-12 classroom orchestration (oral presentation), HPI Spring Workshop, Cape Town, South Africa, April 2014.
+
+%   \item \textbf{Phiri, L}., \& Suleman, H. (2013). Flexible design for simple digital library tools and services (oral presentation), 2013 Southern African Institute for Computer Scientist and Information Technologists Annual Conference, East London, South Africa, September 2013.
+
+%   \item \textbf{Phiri, L}. (2012). SALDRU subject repository : SCAP UCT pilot site (oral presentation), SALDRU DSpace Demonstration Talk, Cape Town, South Africa, December 2012.
+
+%   \item \textbf{Phiri, L}., Williams, K., Robinson, M., Hammar, S., \& Suleman, H. (2012). Bonolo: A general digital library system for file-based collections (oral presentation), 14$^{th}$ International Conference on Asia-Pacific Digital Libraries, Taipei, Taiwan, November 2012.
+
+%   \item \textbf{Phiri, L}., \& Suleman, H. (2011). A lightweight digital library framework (oral presentation), M \& D Symposium, 2011 Southern African Institute for Computer Scientist and Information Technologists Annual Conference, Cape Town, South Africa, October 2011.
+
+% \end{enumerate}
+
+% \subsection{Professional Activities}\label{professional-activities}
+
+% \begin{itemize}
+%   \leftskip-0.25in
+%   \item Reviewer, Southern African Institute for Computer Scientist and Information Technologists Annual Conference, 2017.
+%   \item Reviewer, Computers \& Education, 2016.
+%   \item Reviewer, Southern African Institute for Computer Scientist and Information Technologists Annual Conference, 2015.
+%   \item Reviewer, Southern African Institute for Computer Scientist and Information Technologists Annual Conference, 2014.
+%   \item Sub-reviewer, Southern African Institute for Computer Scientist and Information Technologists Annual Conference, 2016.
+%   \item Sub-reviewer, Southern African Computer Lecturers' Association, 2016.
+%   \item Workshop Organiser, Towards a Strategic Agenda for Local Research in ICT for Development, Southern African Institute for Computer Scientist and Information Technologists Annual Conference, 2015.
+%   \item Reader, Honours Projects, Department of Computer Science, University of Cape Town, 2016.
+%   \item Committee Member, Centre for ICT4D Executive Committee Student Representative, 2016.
+%   \item Mentor, Summer Undergraduate Research Experience Project, Department of Computer Science, University of Cape Town, 2012.
+%   \item Student Volunteer, International Collegiate Programming Contest, 2015.
+%   \item Student Volunteer, Symposium on Electronic Theses and Dissertations, 2011.
+%   \item Content Management, Centre for ICT4D Website, 2015--2016.
+%   \item Content Management, Digital Libraries Laboratory Website, 2014--2016.
+
+% \end{itemize}
+
+% \newpage
+
+% \subsection{References}\label{references}
+
+% Available on request.
+
+\end{document}
